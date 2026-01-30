@@ -1,0 +1,6 @@
+print("Enter two integers:")
+a=int(input())
+b=int(input())
+print(a and b)
+print(a or b)
+print(not a)
