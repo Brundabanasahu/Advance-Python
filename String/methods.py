@@ -1,0 +1,15 @@
+s1="Hi my name is Sagar"
+print(s1.startswith("Hi"))
+print(s1.endswith("Sagar"))
+print(s1.capitalize())
+print(s1.lower())
+print(s1.upper())
+print(len(s1))
+print(s1.split())
+print(s1.isalpha())
+print(s1.replace("Sagar","Brundabana"))
+print(s1.count("p"))
+print(s1.find("Brundabana"))
+print(s1.strip())
+print(s1.istitle())
+
