@@ -9,7 +9,7 @@ print(6.9 in l5)
 l1.append(50)
 print(l4.count("Mango"))
 print(l1)
-print(l2.extends(l5))
+
 print(l4.reverse())
 print(l3.sort())
 print(l2.index("Bulbul"))
@@ -25,4 +25,9 @@ print(l2.remove(20))
 l6=l4.copy()
 print(l6)
 
-
+l=[23,45,5,8,9,5,4,3,2,1]
+for i in l:
+    if i%2==0:
+        print(f"{i} is even")
+    else:
+        print(f"{i} is odd")
