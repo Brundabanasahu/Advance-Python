@@ -2,7 +2,7 @@ dict1=dict(name="Brundabana", age=20, city="Bangalore")
 print(dict1)
 
 student = {
-    "name": "sagar",
+    "name": "Brundabana",
     "age": 20,
     "course": "B.Tech"
 }
