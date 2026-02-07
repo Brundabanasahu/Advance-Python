@@ -16,3 +16,12 @@ for i in book.values():
 
 for key,value in book.items():
     print(key,":",value)    
+
+
+
+if "language"=="korean":
+    book.pop("language")
+else:
+    print("Enter the another criteria")    
+
+ 
