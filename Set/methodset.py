@@ -4,7 +4,7 @@ s3=[1,45,90]
 s4=(1,2,3,4,5)
 print(s.update(s4))
 print(s.update(s3))
-print(s.update(s1))
+print(s.update(s4))
 print(s.add("Hello"))
 print(s.remove(3.14))
 print(s.discard(1))
