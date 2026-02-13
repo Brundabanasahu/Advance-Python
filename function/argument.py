@@ -48,9 +48,39 @@
 print("Arbitary positional arguments")
 print("-----------------------------")
 
-def students(*name):
-    for i in name:
-        print(f"Hi {i}, have a nice day")
+# def students(*name):
+#     for i in name:
+#         print(f"Hi {i}, have a nice day") 
+#     print("The length of the tuple is:", len(name))
+#     print(type(name))
+#     print("First name is:", name[0])  
+# students("Brundabana","Ayush","Sagar","Subrat")
 
 
-students("Brundabana","Ayush","Sagar","Subrat")
+# def students(**info):
+#     print(type(info))
+#     print("name:",info["name"]) 
+#     print("rollno:",info["roll"])
+#     print("section:",info["section"])
+# students={"name":"Brundabana","roll":584,"section":"J"}
+
+
+
+
+# def students(**dict):
+#     print(type(dict))
+#     print("empname:",dict["empname"]) 
+#     print("empid:",dict["empid"])
+#     print("empdep:",dict["empdep"])
+# students(empname="Sagar",empid=5286,empdep="maintaince")
+
+
+def bank(**dict):
+    print("customer name:",dict["customername"])
+    print("Account number:",dict["number"])
+    print("total amount:",dict["totalmoney"])
+    print("withdraw amount:",dict["withdraw"])
+    print("deposit amount:",dict["deposit"])
+bank(customername="Brundabana",number=1234567890,totalmoney=50000,withdraw=10000,deposit=20000)    
+
+
