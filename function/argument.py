@@ -75,12 +75,24 @@ print("-----------------------------")
 # students(empname="Sagar",empid=5286,empdep="maintaince")
 
 
-def bank(**dict):
-    print("customer name:",dict["customername"])
-    print("Account number:",dict["number"])
-    print("total amount:",dict["totalmoney"])
-    print("withdraw amount:",dict["withdraw"])
-    print("deposit amount:",dict["deposit"])
-bank(customername="Brundabana",number=1234567890,totalmoney=50000,withdraw=10000,deposit=20000)    
+# def bank(**dict):
+#     print("customer name:",dict["customername"])
+#     print("Account number:",dict["number"])
+#     print("total amount:",dict["totalmoney"])
+#     print("withdraw amount:",dict["withdraw"])
+#     print("deposit amount:",dict["deposit"])
+# bank(customername="Brundabana",number=1234567890,totalmoney=50000,withdraw=10000,deposit=20000)    
 
 
+def student(name="Brundabana"):
+    print(name)
+student()
+
+def student(name, age):
+    print(name, age)
+student("Brundabana", 20)
+
+def student(name, age):
+    print(f"Name: {name}, Age: {age}")
+
+student(age=20, name="Sagar")
