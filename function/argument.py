@@ -45,8 +45,8 @@
 # students(x)
 
 
-print("Arbitary positional arguments")
-print("-----------------------------")
+# print("Arbitary positional arguments")
+# print("-----------------------------")
 
 # def students(*name):
 #     for i in name:
@@ -84,15 +84,19 @@ print("-----------------------------")
 # bank(customername="Brundabana",number=1234567890,totalmoney=50000,withdraw=10000,deposit=20000)    
 
 
-def student(name="Brundabana"):
-    print(name)
-student()
+# def student(name="Brundabana"):
+#     print(name)
+# student()
 
-def student(name, age):
-    print(name, age)
-student("Brundabana", 20)
+# def student(name, age):
+#     print(name, age)
+# student("Brundabana", 20)
 
-def student(name, age):
-    print(f"Name: {name}, Age: {age}")
+# def student(name, age):
+#     print(f"Name: {name}, Age: {age}")
+# student(age=20, name="Sagar")
 
-student(age=20, name="Sagar")
+def stu(*name):
+    for i in name:
+        print("Good morning",i)
+stu("Brundabana","Ayush","Sagar","Subrat")
