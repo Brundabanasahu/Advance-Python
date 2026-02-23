@@ -7,7 +7,7 @@ def calculatebill(customername, discount, *items):
     discountamount = total * discount / 100
     finalamount = total - discountamount
 
-    print(f"\nCustomer Name: {customername}")
+    print(f"Customer Name: {customername}")
     print(f"Items: {items}")
     print(f"Total Amount: {total}")
     print(f"Discount Amount: {discountamount}")
