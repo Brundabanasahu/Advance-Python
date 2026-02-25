@@ -40,6 +40,6 @@ class book:
         print("Author:",self.author)
         print("Price:",self.price)
 b1 = book("Love is blind","Brundabana",300)
+del b1
 b2= book("god's plan","bulbul",350)
-b1.display()
 b2.display()        
