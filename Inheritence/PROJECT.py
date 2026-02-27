@@ -72,6 +72,21 @@ class Result(Academic, Sports):
         print(f"Result     : {status}")
         print("=" * 45)
 
+        if grand_total >= 450:
+            print("Grade: O")
+        elif grand_total >= 400:
+            print("Grade: E")
+        elif grand_total >= 350:
+            print("Grade: A")
+        elif grand_total >= 300:
+            print("Grade: B")
+        elif grand_total >= 250:
+            print("Grade: C")
+        elif grand_total >= 200:
+            print("Grade: D")        
+        else:
+            print("Grade: F")                
+
 
 obj = Result()
 obj.input_student()
