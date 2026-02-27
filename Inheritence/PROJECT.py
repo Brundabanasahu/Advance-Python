@@ -27,6 +27,26 @@ class Sports(Student):
 class Result(Academic, Sports):
     def display(self):
         grand_total = self.academic_total + self.sports_marks
+        percentage = (grand_total / 520) * 100
+
+        if percentage >= 90:
+            grade = "A+"
+        elif percentage >= 80:
+            grade = "A"
+        elif percentage >= 70:
+            grade = "B"
+        elif percentage >= 60:
+            grade = "C"
+        elif percentage >= 50:
+            grade = "D"
+        else:
+            grade = "F"
+
+        if percentage >= 40:
+            status = "PASS"
+        else:
+            status = "FAIL"
+
 
         print("\n" + "=" * 45)
         print("           STUDENT RESULT CARD")
@@ -47,6 +67,9 @@ class Result(Academic, Sports):
         print(f"Sports(20) : {self.sports_marks}")
         print("-" * 45)
         print(f"Grand Total (520): {grand_total}")
+        print(f"Percentage : {percentage:.2f}%")
+        print(f"Grade      : {grade}")
+        print(f"Result     : {status}")
         print("=" * 45)
 
 
