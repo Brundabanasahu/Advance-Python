@@ -34,10 +34,6 @@ class FixedDeposit(BankAccount):
         print("This is a Fixed Deposit Account")
 
 
-c1 = CurrentAccount()
-s1 = SavingAccount()
-f1 = FixedDeposit()
-
-c1.account_type()
-s1.account_type()
-f1.account_type()
+c=[CurrentAccount(),SavingAccount(),FixedDeposit()]
+for i in c:
+    i.account_type()
